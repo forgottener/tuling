@@ -1,0 +1,20 @@
+{
+    "name": "forgottener/tuling",
+    "description": "图灵机器人(tuling123.com)php api sdk",
+    "type": "library",
+    "license": "Apache License 2.0",
+    "authors": [
+        {
+            "name": "forgottener",
+            "email": "gao.bo168@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Forgottener\\Tuling\\": "src/"
+        }
+    }
+}
